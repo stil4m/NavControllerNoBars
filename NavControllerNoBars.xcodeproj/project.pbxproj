@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3E9794714B1C60500564ADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9794614B1C60500564ADC /* UIKit.framework */; };
+		F3E9794914B1C60500564ADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9794814B1C60500564ADC /* Foundation.framework */; };
+		F3E9794B14B1C60500564ADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3E9794A14B1C60500564ADC /* CoreGraphics.framework */; };
+		F3E9795114B1C60500564ADC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3E9794F14B1C60500564ADC /* InfoPlist.strings */; };
+		F3E9795314B1C60500564ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9795214B1C60500564ADC /* main.m */; };
+		F3E9795714B1C60500564ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9795614B1C60500564ADC /* AppDelegate.m */; };
+		F3E9795A14B1C60500564ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9795914B1C60500564ADC /* ViewController.m */; };
+		F3E9795D14B1C60500564ADC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E9795B14B1C60500564ADC /* ViewController.xib */; };
+		F3E9796514B1C65300564ADC /* GreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9796414B1C65300564ADC /* GreenViewController.m */; };
+		F3E9796814B1C65B00564ADC /* RedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9796714B1C65B00564ADC /* RedViewController.m */; };
+		F3E9796B14B1C66700564ADC /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E9796A14B1C66700564ADC /* ButtonViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3E9794214B1C60500564ADC /* NavControllerNoBars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavControllerNoBars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E9794614B1C60500564ADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3E9794814B1C60500564ADC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3E9794A14B1C60500564ADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3E9794E14B1C60500564ADC /* NavControllerNoBars-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavControllerNoBars-Info.plist"; sourceTree = "<group>"; };
+		F3E9795014B1C60500564ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3E9795214B1C60500564ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3E9795414B1C60500564ADC /* NavControllerNoBars-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavControllerNoBars-Prefix.pch"; sourceTree = "<group>"; };
+		F3E9795514B1C60500564ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3E9795614B1C60500564ADC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3E9795814B1C60500564ADC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3E9795914B1C60500564ADC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3E9795C14B1C60500564ADC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F3E9796314B1C65300564ADC /* GreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenViewController.h; sourceTree = "<group>"; };
+		F3E9796414B1C65300564ADC /* GreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenViewController.m; sourceTree = "<group>"; };
+		F3E9796614B1C65B00564ADC /* RedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedViewController.h; sourceTree = "<group>"; };
+		F3E9796714B1C65B00564ADC /* RedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedViewController.m; sourceTree = "<group>"; };
+		F3E9796914B1C66700564ADC /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		F3E9796A14B1C66700564ADC /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3E9793F14B1C60500564ADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E9794714B1C60500564ADC /* UIKit.framework in Frameworks */,
+				F3E9794914B1C60500564ADC /* Foundation.framework in Frameworks */,
+				F3E9794B14B1C60500564ADC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3E9793714B1C60500564ADC = {
+			isa = PBXGroup;
+			children = (
+				F3E9794C14B1C60500564ADC /* NavControllerNoBars */,
+				F3E9794514B1C60500564ADC /* Frameworks */,
+				F3E9794314B1C60500564ADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3E9794314B1C60500564ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9794214B1C60500564ADC /* NavControllerNoBars.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3E9794514B1C60500564ADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9794614B1C60500564ADC /* UIKit.framework */,
+				F3E9794814B1C60500564ADC /* Foundation.framework */,
+				F3E9794A14B1C60500564ADC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3E9794C14B1C60500564ADC /* NavControllerNoBars */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9795514B1C60500564ADC /* AppDelegate.h */,
+				F3E9795614B1C60500564ADC /* AppDelegate.m */,
+				F3E9795814B1C60500564ADC /* ViewController.h */,
+				F3E9795914B1C60500564ADC /* ViewController.m */,
+				F3E9795B14B1C60500564ADC /* ViewController.xib */,
+				F3E9794D14B1C60500564ADC /* Supporting Files */,
+				F3E9796314B1C65300564ADC /* GreenViewController.h */,
+				F3E9796414B1C65300564ADC /* GreenViewController.m */,
+				F3E9796614B1C65B00564ADC /* RedViewController.h */,
+				F3E9796714B1C65B00564ADC /* RedViewController.m */,
+				F3E9796914B1C66700564ADC /* ButtonViewController.h */,
+				F3E9796A14B1C66700564ADC /* ButtonViewController.m */,
+			);
+			path = NavControllerNoBars;
+			sourceTree = "<group>";
+		};
+		F3E9794D14B1C60500564ADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3E9794E14B1C60500564ADC /* NavControllerNoBars-Info.plist */,
+				F3E9794F14B1C60500564ADC /* InfoPlist.strings */,
+				F3E9795214B1C60500564ADC /* main.m */,
+				F3E9795414B1C60500564ADC /* NavControllerNoBars-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3E9794114B1C60500564ADC /* NavControllerNoBars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3E9796014B1C60500564ADC /* Build configuration list for PBXNativeTarget "NavControllerNoBars" */;
+			buildPhases = (
+				F3E9793E14B1C60500564ADC /* Sources */,
+				F3E9793F14B1C60500564ADC /* Frameworks */,
+				F3E9794014B1C60500564ADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavControllerNoBars;
+			productName = NavControllerNoBars;
+			productReference = F3E9794214B1C60500564ADC /* NavControllerNoBars.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3E9793914B1C60500564ADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F3E9793C14B1C60500564ADC /* Build configuration list for PBXProject "NavControllerNoBars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3E9793714B1C60500564ADC;
+			productRefGroup = F3E9794314B1C60500564ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3E9794114B1C60500564ADC /* NavControllerNoBars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3E9794014B1C60500564ADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E9795114B1C60500564ADC /* InfoPlist.strings in Resources */,
+				F3E9795D14B1C60500564ADC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3E9793E14B1C60500564ADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3E9795314B1C60500564ADC /* main.m in Sources */,
+				F3E9795714B1C60500564ADC /* AppDelegate.m in Sources */,
+				F3E9795A14B1C60500564ADC /* ViewController.m in Sources */,
+				F3E9796514B1C65300564ADC /* GreenViewController.m in Sources */,
+				F3E9796814B1C65B00564ADC /* RedViewController.m in Sources */,
+				F3E9796B14B1C66700564ADC /* ButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3E9794F14B1C60500564ADC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E9795014B1C60500564ADC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3E9795B14B1C60500564ADC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3E9795C14B1C60500564ADC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3E9795E14B1C60500564ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3E9795F14B1C60500564ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3E9796114B1C60500564ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavControllerNoBars/NavControllerNoBars-Prefix.pch";
+				INFOPLIST_FILE = "NavControllerNoBars/NavControllerNoBars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3E9796214B1C60500564ADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavControllerNoBars/NavControllerNoBars-Prefix.pch";
+				INFOPLIST_FILE = "NavControllerNoBars/NavControllerNoBars-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3E9793C14B1C60500564ADC /* Build configuration list for PBXProject "NavControllerNoBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E9795E14B1C60500564ADC /* Debug */,
+				F3E9795F14B1C60500564ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E9796014B1C60500564ADC /* Build configuration list for PBXNativeTarget "NavControllerNoBars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3E9796114B1C60500564ADC /* Debug */,
+				F3E9796214B1C60500564ADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3E9793914B1C60500564ADC /* Project object */;
+}
